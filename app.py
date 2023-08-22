@@ -16,7 +16,7 @@ RTC_CONFIGURATION = RTCConfiguration({"iceServers": [{"urls": ["stun:stun.l.goog
 
 cap = cv2.VideoCapture(0)
 detector = HandDetector(maxHands=1)
-classifier = Classifier("E:/HandSymbols-To-Text/keras_model.h5", "E:/HandSymbols-To-Text/labels.txt")
+classifier = Classifier("keras_model.h5", "labels.txt")
 
 offset = 20
 imgSize = 300
